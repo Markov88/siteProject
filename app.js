@@ -28,7 +28,7 @@ fetch("./main.html")
 
 
 fetch("./footer.html")
-  .then(response => {
+  .then(response => { 
     return response.text()
   })
   .then(data => {

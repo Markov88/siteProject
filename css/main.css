@@ -1,39 +1,42 @@
+main {
+  margin-bottom: 3rem;
+  
+}
 
-  h5 {
-    color: wheat;
-    font-size: 24px !important;
-    font-weight: bold;
+h5 {
+  color: wheat;
+  font-size: 24px !important;
+  font-weight: bold;
+}
+
+.carousel-inner {
+  border-radius: 0.5rem;
+}
+
+#products {
+  margin-left: auto;
+  margin-right: auto;
+  top: 2.5rem;
+  -webkit-box-shadow: 1px 1px 7px 4px rgba(232, 232, 232, 1);
+  -moz-box-shadow: 1px 1px 7px 4px rgba(232, 232, 232, 1);
+  box-shadow: 1px 1px 7px 4px rgb(179, 170, 204);
+  border-radius: 0.5rem;
+}
+
+@media (max-width:990px) {
+  .carousel-item, .carousel {
+    width: 50vw;
+    height: 55vh;
   }
-
-  .carousel-inner {
-    border-radius: 0.5rem;
-  }
-
   #products {
-    margin-left: auto;
-    margin-right: auto;
-   top:1rem;
-    margin-bottom: 3rem !important;
-    -webkit-box-shadow: 1px 1px 7px 4px rgba(232, 232, 232, 1);
-    -moz-box-shadow: 1px 1px 7px 4px rgba(232, 232, 232, 1);
-    box-shadow: 1px 1px 7px 4px rgb(179, 170, 204);
-    border-radius: 0.5rem;
+    top: 2rem;
   }
+}
+@media (max-width:650px) {
+  .carousel-item, .carousel {
+    width: 50vw;
+    height: 40vh;
+  }
+}
 
-  @media (max-width:990px) {
-    .carousel-item, .carousel {
-      width: 60vw !important;
-      height: 70vh!important;
-    }
-    #products {
-     top:2rem;
-    
-    }
-  }
-
-  @media (max-width:480px) {
-    .carousel-item, .carousel {
-      width: 50vw !important;
-      height: 40vh !important;
-    }
-  }
+ 

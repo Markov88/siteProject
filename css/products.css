@@ -3,7 +3,7 @@
      width: 100%;
      height: 100%;
      justify-content: space-between;
-     padding:3rem 2rem 3rem 2rem;
+    padding:3rem 2rem 0 2rem;
  }
 
  .card {
@@ -103,6 +103,8 @@
          align-items: center;
          height: 45%;
          min-height: 11rem;
+         padding-top:1rem;
+         
      }
      .card {
          width: 80%;
@@ -125,6 +127,10 @@
  @media (max-width:480px) {
      .card {
          width: 100%;
-         height: 100%
+         height: 100%;
+        
+     }
+     .box-products {
+         padding:1rem auto;
      }
  }

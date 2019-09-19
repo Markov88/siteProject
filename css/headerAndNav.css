@@ -20,6 +20,8 @@ body {
     height: 100%;
     position: relative;
     min-width: 365px;
+    
+    
 }
 
 header {
@@ -128,7 +130,7 @@ nav ul {
 @media (max-width:1035px) {
     nav {
         margin: auto!important;
-        padding: 0 0 0.5rem 0;
+        padding: 0.5rem 0 0.5rem 0;
     }
     header .site-title {
         margin: auto;
